@@ -1,0 +1,16 @@
+#app [data-test="maker-goal-item-new"] {
+  margin-top: 14px
+}
+
+.injected__goal-length-limit {
+  position: absolute;
+  top: -21px;
+  left: 35px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #6D747B;
+}
+
+.injected__goal-length-limit--alert {
+  color: #E03131;
+}
