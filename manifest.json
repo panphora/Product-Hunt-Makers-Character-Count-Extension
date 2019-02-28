@@ -1,7 +1,7 @@
 {
-  "name": "Product Hunt Makers Character Counter",
+  "name": "Product Hunt Makers - Goal Character Count",
   "version": "1.0",
-  "description": "A tiny extension that helps you keep track of how long your goal text is on the Product Hunt Makers website",
+  "description": "Keep track of your goal's character count Product Hunt Makers",
   "content_scripts": [
     {
       "matches": ["https://*.producthunt.com/*"],
