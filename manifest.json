@@ -1,7 +1,7 @@
 {
   "name": "Product Hunt Makers - Goal Character Count",
   "version": "1.0",
-  "description": "Keep track of your goal's character count Product Hunt Makers",
+  "description": "Keep track of your goal's character count on Product Hunt Makers",
   "content_scripts": [
     {
       "matches": ["https://*.producthunt.com/*"],
