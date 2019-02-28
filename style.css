@@ -2,6 +2,10 @@
   margin-top: 14px
 }
 
+#app ol + [data-test="maker-goal-item-new"] {
+  margin-top: 30px
+}
+
 .injected__goal-length-limit {
   position: absolute;
   top: -21px;

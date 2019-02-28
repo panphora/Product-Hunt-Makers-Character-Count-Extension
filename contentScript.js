@@ -22,3 +22,17 @@ document.addEventListener("input", function (event) {
     lengthLimitElement.innerText = "" + length + "/" + maxLength;
   }
 });
+
+document.addEventListener("keydown", function (event) {
+  if (event.keyCode === 13) {
+    let formElem = event.target.closest("[data-test='maker-goal-item-new']");
+
+    if (formElem) {
+      let lengthLimitElement = formElem.querySelector(".injected__goal-length-limit");
+
+      if (lengthLimitElement) {
+        lengthLimitElement.remove();
+      }
+    }
+  }
+})
